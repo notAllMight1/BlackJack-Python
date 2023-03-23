@@ -47,7 +47,7 @@ class Hand():
         
 
     def ace_adjust(self):
-        #if roral value > 21 and i have an ace
+        #if total value > 21 and i have an ace
         #then Change my Ace to 1 instead of 11
         
         while self.value>21 and self.ace>0:
